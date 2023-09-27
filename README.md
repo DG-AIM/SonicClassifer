@@ -17,21 +17,21 @@ AI-powered tool for real-time audio file classification. Distinguishes between h
 
 Provide a detailed step-by-step process on how to install and set up SonicClassifier. Include any system prerequisites, and the commands to install them, and the SonicClassifier itself.
 
-\```bash
+```bash
 # Example: Install via pip
 pip install sonicclassifier
-\```
+```
 
 ## Usage
 
 Describe the general usage, examples of commands, or scripts users can run to interact with SonicClassifier. Add code samples and examples to make this section as detailed as necessary.
 
-\```python
+```python
 # Example Python code to interact with the API
 import sonicclassifier
 
 # Code continues...
-\```
+```
 
 ## API Documentation
 
@@ -45,9 +45,9 @@ Provide an overview of the API, including the endpoints, parameters, and expecte
 Information on how others can contribute to SonicClassifier. Include guidelines for submitting pull requests, reporting bugs, or proposing new features.
 
 1. Fork the repo
-2. Create your feature branch (\```git checkout -b feature/fooBar\```)
-3. Commit your changes (\```git commit -am 'Add some fooBar'\```)
-4. Push to the branch (\```git push origin feature/fooBar\```)
+2. Create your feature branch (```git checkout -b feature/fooBar```)
+3. Commit your changes (```git commit -am 'Add some fooBar'```)
+4. Push to the branch (```git push origin feature/fooBar```)
 5. Create a new Pull Request
 
 ## License
