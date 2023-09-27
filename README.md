@@ -17,7 +17,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Architecture][£Architecture]
+- [Architecture](#Architecture)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
