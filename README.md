@@ -1,9 +1,9 @@
-<h1 align="center">SonicClassifier - AI-Powered Audio Classification</h1>
+<h1 align="center">SonicClassifier - AI-Powered Music Classification</h1>
 
 <p align="center">
   <img src="./assets/logo.jpeg" alt="sonicclassifier-logo" width="120px" height="120px"/>
   <br>
-  <em>SonicClassifier distinguishes between human & AI-generated music with precision, offering real-time audio file classification through an easy-to-use API.</em>
+  <em>SonicClassifier distinguishes between human & AI-generated music with precision, offering real-time classification through an easy-to-use API.</em>
   <br>
 </p>
 
