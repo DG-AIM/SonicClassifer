@@ -1,8 +1,16 @@
-![SonicClassifier Logo](./assets/logo.jpeg)
+<h1 align="center">SonicClassifier - AI-Powered Audio Classification</h1>
 
-# SonicClassifier
+<p align="center">
+  <img src="./assets/logo.png" alt="sonicclassifier-logo" width="120px" height="120px"/>
+  <br>
+  <em>SonicClassifier distinguishes between human & AI-generated music with precision, offering real-time audio file classification through an easy-to-use API.</em>
+  <br>
+</p>
 
-AI-powered tool for real-time audio file classification. Distinguishes between human & AI-generated music with precision. 
+<p align="center">
+  <a href="https://www.sonicclassifier.com"><strong>www.sonicclassifier.com</strong></a>
+  <br>
+</p>
 
 ## Table of Contents
 
