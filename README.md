@@ -17,6 +17,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
+- [Architecture][£Architecture]
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -47,6 +48,28 @@ Provide an overview of the API, including the endpoints, parameters, and expecte
 
 - Endpoint 1: Description and usage
 - Endpoint 2: Description and usage
+
+## Architecture
+
+Below is the architectural diagram that illustrates how the SonicClassifier API server interacts with the Firefox add-on to provide real-time audio file classification.
+
+<p align="center">
+  <img src="./assets/system-diagram.png" alt="System Diagram" width="600"/>
+</p>
+
+### Description
+
+The diagram showcases the workflow between the SonicClassifier API server and the Firefox add-on. Users can utilize the add-on to send audio files to the API server for classification. The server processes and classifies the audio files, returning the results directly to the add-on in the user’s browser.
+
+### Workflow
+
+1. **User Interaction:** Users send audio files through the Firefox add-on.
+2. **API Server:** The add-on communicates with the SonicClassifier API server, sending the audio files for classification.
+3. **Processing:** The API server classifies the audio files distinguishing between human & AI-generated music.
+4. **Response:** Classification results are sent back to the Firefox add-on and displayed to the user.
+
+For a more detailed explanation of each component and their interactions, refer to the [Documentation](#documentation).
+
 
 ## Contributing
 
