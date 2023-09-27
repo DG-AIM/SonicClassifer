@@ -1,4 +1,4 @@
-![SonicClassifier Logo](./assets/logo.png)
+![SonicClassifier Logo](./assets/logo.jpeg)
 
 # SonicClassifier
 
