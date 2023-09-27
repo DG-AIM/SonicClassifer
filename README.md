@@ -85,7 +85,7 @@ Information on how others can contribute to SonicClassifier. Include guidelines 
 
 Include the license information here. Link to the LICENSE file in the repository.
 
-[MIT License](LICENSE)
+[GNU GENERAL PUBLIC LICENSE](LICENSE)
 
 ## Acknowledgements
 
