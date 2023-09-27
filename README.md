@@ -112,43 +112,27 @@ For a more detailed explanation of each component and their interactions, refer 
 
 ## Contributing
 
-We warmly welcome contributions to the SonicClassifier project. Whether it's bug reports, code improvements, or new feature proposals, each contribution helps, and we genuinely appreciate the community’s support.
+We warmly welcome contributions to the SonicClassifier project. Whether it's bug reports, code improvements, or new feature proposals, each contribution is appreciated, aiding in enhancing the effectiveness and usability of SonicClassifier.
 
-### Getting Started:
+### Contribution Steps:
 
-Follow these steps to contribute:
+1. **Fork the Repository:** Start by forking the SonicClassifier repository to your own GitHub account.
 
-1. **Fork the Repo:**
-   - Click on the 'Fork' button at the top right corner of the repository page to copy the repo to your GitHub account.
+2. **Create a Feature Branch:** Create a new branch in your forked repository where you’ll work on your feature or bug fix.
 
-2. **Create Your Feature Branch:** 
-   - Use this command to check out a new branch where you'll work on your feature or bug fix.
-   ```bash
-   git checkout -b feature/fooBar
-   ```
+3. **Commit Your Changes:** Make your changes and commit them to your feature branch.
 
-3. **Commit Your Changes:** 
-   - After making your changes, commit them with a descriptive message.
-   ```bash
-   git commit -am 'Add some fooBar'
-   ```
+4. **Push to Your Fork:** Push your changes to your forked repository on GitHub.
 
-4. **Push to The Branch:** 
-   - Upload your changes to GitHub.
-   ```bash
-   git push origin feature/fooBar
-   ```
+5. **Submit a Pull Request:** Go to the SonicClassifier repository and submit a pull request, ensuring to provide a comprehensive description of the changes.
 
-5. **Create a New Pull Request:** 
-   - Go to the 'Pull Requests' tab on the original SonicClassifier repo and click on 'New Pull Request’. Select your fork and branch to submit a pull request.
+### Reporting Bugs or Suggesting Features:
 
-### Reporting Bugs or Proposing New Features:
+- **Bugs:** Report bugs via the issue tracker, providing detailed information to help us understand and address the issue effectively.
 
-- **Bug Reports:** Please use the issue tracker to report any bugs. Include a detailed description, expected vs. actual behavior, and steps to reproduce the issue to help us understand and fix the problem quickly.
+- **Feature Proposals:** We’re always eager to enhance SonicClassifier; suggest new features through the issue tracker, explaining the feature and its benefits.
 
-- **Feature Proposals:** We're always open to new ideas to enhance SonicClassifier. Create an issue to propose new features. Include a detailed description and the problem it solves to foster community discussion.
-
-We look forward to your contributions and are committed to reviewing and integrating them promptly!
+Your contributions are invaluable and we're committed to reviewing and integrating them in a timely manner!
 
 ## License
 
