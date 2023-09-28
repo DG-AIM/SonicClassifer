@@ -1,4 +1,5 @@
 
+
 <h1 align="center">SonicClassifier - AI-Powered Music Classification</h1>
 
 <p align="center">
@@ -10,7 +11,7 @@
 
 ## Disclaimer
 
-Please be informed that SonicClassifier is currently a conceptual project. The information provided in this README outlines the intended plan and design for the project. As of now, the project is in the ideation phase and has not been implemented. It serves as a blueprint, laying down the foundational ideas and prospective features of what SonicClassifier aims to achieve upon realization.
+_Please be informed that SonicClassifier is currently a conceptual project. The information provided in this README outlines the intended plan and design for the project. As of now, the project is in the ideation phase and has not been implemented. It serves as a blueprint, laying down the foundational ideas and prospective features of what SonicClassifier aims to achieve upon realization. Details and specifications might evolve as development begins, aligning with technical, functional, and user experience optimizations._
 
 ## Table of Contents
 
@@ -44,12 +45,12 @@ The SonicClassifier will be accessible via an API and as a Python package.
 SonicClassifier can be utilized through an intuitive API or directly via a Python package, offering flexibility for various use cases.
 
 ### Using the API:
-Interact with the API through HTTP requests. Here is an example using `curl` to classify an audio file:
+Interact with the API through HTTP requests. Here is a sample way for using `curl` to classify an audio file:
 
 ```bash
 curl -X POST -H "Content-Type: audio/mpeg" --data-binary "@audiofile.mp3" http://api.sonicclassifier.com/classify
 ```
-Replace `"audiofile.mp3"` with the path to your audio file. The API will return a JSON response with the classification results.
+The API will return a JSON response with the classification results.
 
 ### Using the Python Package:
 Import the `sonicclassifier` package and use its functions directly in your Python scripts. Here’s a basic example:
@@ -62,13 +63,15 @@ classifier = sonicclassifier.Classifier()
 
 # Classify an audio file
 result = classifier.classify('path/to/audiofile.mp3')
+# OR Classify a Midi file
+result = classifier.classify_midi('path/to/midifile.mid')
 
 # Print the classification result
 print(result)
 ```
-Replace `'path/to/audiofile.mp3'` with the actual path to your audio file.
+Replace `'path/to/audiofile.mp3'` or `'path/to/midifile.mid'` with the actual path to your audio file or the midi file.
 
-*More detailed examples and documentation will be provided upon the completion of the development phase.*
+*More examples and documentation will be provided upon the completion of the development phase.*
 
 
 
@@ -93,7 +96,7 @@ We encourage potential users and contributors to stay tuned for upcoming updates
 
 ## Architecture
 
-Below is the architectural diagram that illustrates how the SonicClassifier API server interacts with the Firefox add-on to provide real-time audio file classification.
+The architectural diagram below illustrates how the SonicClassifier API server interacts with different entities to identify AI-generated music.
 
 <p align="center">
   <img src="./assets/Systems Diagram SonicClassifier.png" alt="System Diagram" width="600"/>
@@ -101,18 +104,14 @@ Below is the architectural diagram that illustrates how the SonicClassifier API 
 
 ### Description
 
-The diagram showcases the workflow between the SonicClassifier API server and the Firefox add-on. Users can utilize the add-on to send audio files to the API server for classification. The server processes and classifies the audio files, returning the results directly to the add-on in the user’s browser.
+The diagram showcases the workflow between the SonicClassifier API server and different entities. Users can utilize the API to send audio files to the API server for classification. The server processes and passes the file onto the appropriate AI model. The AI model returning the result to the API server which in turn returns the result as an HTTP response.
 
 ### Workflow
 
-1. **User Interaction:** Users send audio files through the Firefox add-on.
+1. **User Interaction:** Users or application server send audio files through API.
 2. **API Server:** The add-on communicates with the SonicClassifier API server, sending the audio files for classification.
-3. **Processing:** The API server classifies the audio files distinguishing between human & AI-generated music.
-4. **Response:** Classification results are sent back to the Firefox add-on and displayed to the user.
-
-For a more detailed explanation of each component and their interactions, refer to the [Documentation](#documentation).
-
-
+3. **Processing:** The API server classifies the audio files distinguishing between human & AI-generated.
+4. **Response:** Classification results are sent back to the requester.
 
 ## Contributing
 
@@ -141,4 +140,3 @@ Your contributions are invaluable and we're committed to reviewing and integrati
 ## License
 
 SonicClassifier is licensed under the GNU General Public License. This ensures that it remains free and open-source, promoting software freedom and protection against proprietary restrictions. For detailed terms and conditions, please refer to the [GNU GENERAL PUBLIC LICENSE](LICENSE) file in the repository.
-
