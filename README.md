@@ -8,6 +8,10 @@
   <br>
 </p>
 
+## Disclaimer
+
+<em>Please be informed that SonicClassifier is currently a conceptual project. The information provided in this README outlines the intended plan and design for the project. As of now, the project is in the ideation phase and has not been implemented. It serves as a blueprint, laying down the foundational ideas and prospective features of what SonicClassifier aims to achieve upon realization.</em>
+
 ## Table of Contents
 
 - [Installation](#installation)
