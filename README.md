@@ -96,7 +96,7 @@ We encourage potential users and contributors to stay tuned for upcoming updates
 Below is the architectural diagram that illustrates how the SonicClassifier API server interacts with the Firefox add-on to provide real-time audio file classification.
 
 <p align="center">
-  <img src="./assets/system-diagram.png" alt="System Diagram" width="600"/>
+  <img src="./assets/Systems Diagram SonicClassifier.png" alt="System Diagram" width="600"/>
 </p>
 
 ### Description
